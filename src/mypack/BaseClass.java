@@ -1,5 +1,7 @@
 package mypack;
 
+import java.util.Scanner;
+
 public class BaseClass {
 
 	public static void main(String[] args) {
@@ -10,4 +12,22 @@ public class BaseClass {
 	public void palindromeByGanesh() {
 
 	}
+	public static void PalindromeByThangadurai() {
+	      String original, reverse = ""; 
+	      Scanner ab = new Scanner(System.in);
+	      
+	      System.out.println("Check entered string is a palindrome or not");
+	      original = ab.nextLine();
+	     
+	      int length = original.length();
+	     
+	      for (int i = length - 1; i >= 0; i--)
+	         reverse = reverse + original.charAt(i);
+	         
+	      if (original.equals(reverse))
+	         System.out.println("The string is a palindrome.");
+	      else
+	         System.out.println("The string isn't a palindrome.");
+	         
+	   }
 }
