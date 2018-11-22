@@ -23,7 +23,9 @@ public class BaseClass {
 	     
 	      System.out.println("Enter a string");
 	      s = in.nextLine();
+	     
 	      int length = s.length();
+	     
 	      for (int i = length - 1; i >= 0; i--) {
 	         rev = rev + s.charAt(i);
 	      }
@@ -32,6 +34,6 @@ public class BaseClass {
 	      }
 	         
 	      else {
-	         System.out.println(" The string isn't a palindrome.");
+	         System.out.println("The string isn't a palindrome.");
 	      }}
 }
