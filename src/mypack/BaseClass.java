@@ -10,4 +10,8 @@ public class BaseClass {
 	public void palindromeByGanesh() {
 
 	}
+	
+	public void palindromeBySriram(){
+		
+	}
 }
