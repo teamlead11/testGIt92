@@ -146,6 +146,11 @@ public void palindromeHari() {
 public void sravya() {
 	// TODO Auto-generated method stub
 System.out.println("srvya");
+
+
+	// TODO Auto-generated method stub
+System.out.println("practice the test");
+}
 }
 
 
