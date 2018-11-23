@@ -163,6 +163,15 @@ public static void palindrome_muthu_gsm() {
 
 
 	String s, rev = "";
+	
+	
+	
+	
+	
+	
+	
+	
+	
       Scanner in = new Scanner(System.in);
      
       System.out.println("Enter a string");
