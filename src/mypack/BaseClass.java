@@ -13,27 +13,71 @@ public class BaseClass {
 
 	}
 	
-	private void PalindromeByGopi() {
-		String original, reverse = ""; // Objects of String class
-	      Scanner ab = new Scanner(System.in);
+
+	public void palindromeBySriram(){
+		
+	}
+	
+	public static void PalindromeMeena() {
+		String s, rev = "";
+	      Scanner in = new Scanner(System.in);
 	     
-	      System.out.println("Check entered string is a palindrome or not");
-	      original = ab.nextLine();
+	      System.out.println("Enter a string");
+	      s = in.nextLine();
 	     
-	      int length = original.length();
+	      int length = s.length();
 	     
-	      for (int i = length - 1; i >= 0; i--)
-	         reverse = reverse + original.charAt(i);
+	      for (int i = length - 1; i >= 0; i--) {
+	         rev = rev + s.charAt(i);
+	      }
+	      if (s.equals(rev)) {
+	    	  System.out.println("The string is a palindrome.");  
+	      }
 	         
-	      if (original.equals(reverse))
-	         System.out.println("The string is a palindrome.");
-	      else
+	      else {
 	         System.out.println("The string isn't a palindrome.");
-	         
-	} 
-	
-	
-	
-	
-	
+	      }}
+
+public static void PalindromeRanjitha() {
+    String original, reverse = ""; 
+    Scanner ab = new Scanner(System.in);
+    
+    System.out.println("Check entered string is a palindrome or not");
+    original = ab.nextLine();
+   
+    int length = original.length();
+   
+    for (int i = length - 1; i >= 0; i--)
+       reverse = reverse + original.charAt(i);
+       
+    if (original.equals(reverse))
+       System.out.println("The string is a palindrome.");
+    else
+       System.out.println("The string isn't a palindrome.");
+}    
+ 
+
+private void PalindromeByGopi() {
+	String original, reverse = ""; // Objects of String class
+      Scanner ab = new Scanner(System.in);
+     
+      System.out.println("Check entered string is a palindrome or not");
+      original = ab.nextLine();
+     
+      int length = original.length();
+     
+      for (int i = length - 1; i >= 0; i--)
+         reverse = reverse + original.charAt(i);
+         
+      if (original.equals(reverse))
+         System.out.println("The string is a palindrome.");
+      else
+         System.out.println("The string isn't a palindrome.");
+         
+} 
+
+
+
+
+
 }
