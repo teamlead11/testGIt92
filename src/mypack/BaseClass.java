@@ -13,6 +13,7 @@ public class BaseClass {
 
 	}
 	
+
 	public void palindromeBySriram(){
 		
 	}
@@ -35,7 +36,7 @@ public class BaseClass {
 	         
 	      else {
 	         System.out.println("The string isn't a palindrome.");
-	      }}
+	      }	}
 
 public static void PalindromeRanjitha() {
     String original, reverse = ""; 
@@ -78,6 +79,50 @@ public static void palindrome_muthu_gsm() {
          
       else {
          System.out.println("The string isn't a palindrome.");
-      }
+      
 }
  }
+{
+}    
+ 
+
+private void PalindromeByGopi() {
+	String original, reverse = ""; // Objects of String class
+      Scanner ab = new Scanner(System.in);
+     
+      System.out.println("Check entered string is a palindrome or not");
+      original = ab.nextLine();
+     
+      int length = original.length();
+     
+      for (int i = length - 1; i >= 0; i--)
+         reverse = reverse + original.charAt(i);
+         
+      if (original.equals(reverse))
+         System.out.println("The string is a palindrome.");
+      else
+         System.out.println("The string isn't a palindrome.");
+         
+} 
+
+public void paLindromeByManivel() {
+	String rev="";
+	System.out.println("Enter the string");
+	Scanner aal = new Scanner(System.in);
+	String name = aal.next();
+	int j=name.length();
+	System.out.println(j);
+	for (int i = j-1; i >=0; i--) {
+		rev=rev+name.charAt(i);
+	}
+	if (name.equals(rev)) {
+		System.out.println("String is palindrome");
+	}
+	else {
+		System.out.println("String is not palindrome");
+	}
+	
+}
+}
+
+
