@@ -190,6 +190,7 @@ public static void PalindromeByThangadurai() {
     Scanner ab = new Scanner(System.in);
     
     System.out.println("Check entered string is a palindrome or not");
+    System.out.println("new");
     original = ab.nextLine();
    
     int length = original.length();
