@@ -213,6 +213,3 @@ public static void PalindromeByThangadurai() {
        System.out.println("The string isn't a palindrome.");
        
  }}
-   
- 
-
