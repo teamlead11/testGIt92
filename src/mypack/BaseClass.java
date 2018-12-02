@@ -164,7 +164,6 @@ System.out.println("practice the test");
 public static void palindrome_muthu_gsm() {
 	// TODO Auto-generated method stub
 
-
 	String s, rev = "";
 	
 	
@@ -193,6 +192,7 @@ public static void palindrome_muthu_gsm() {
          System.out.println("The string isn't a palindrome.");
       
 }
+
 }
 public static void PalindromeByThangadurai() {
     String original, reverse = ""; 
