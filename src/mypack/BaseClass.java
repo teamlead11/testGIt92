@@ -13,7 +13,24 @@ public class BaseClass {
 
 	}
 
-	
+	public void paLindromeByDeepak() {
+		String rev="";
+		System.out.println("Enter the string");
+		Scanner aal = new Scanner(System.in);
+		String name = aal.next();
+		int j=name.length();
+		System.out.println(j);
+		for (int i = j-1; i >=0; i--) {
+			rev=rev+name.charAt(i);
+		}
+		if (name.equals(rev)) {
+			System.out.println("String is palindrome");
+		}
+		else {
+			System.out.println("String is not palindrome");
+		}
+		
+	}	
 	
 
 	public void palindromeBySriram(){
